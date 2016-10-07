@@ -4,7 +4,7 @@ import sys
 import numpy as np
 import cv2
 
-im = cv2.imread('pitrain.png')
+im = cv2.imread('images/NumberLearning.png')
 im3 = im.copy()
 
 gray = cv2.cvtColor(im,cv2.COLOR_BGR2GRAY)
